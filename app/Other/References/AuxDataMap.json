@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Commentses\",\"%DataSourceValue.AFD%\":\"[@Commentses]\",\"%SortFieldName.AFD%\":\"\\\"cr825_comment\\\"\",\"%FilterFieldName.AFD%\":\"cr825_comment\",\"%PrimaryNameField.AFD%\":\"cr825_commentid\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Comment ID'\",\"%SearchFieldName.AFD%\":\"cr825_comment,cr825_commentid,cr825_name\",\"%StartsWithFieldName.AFD%\":\"cr825_comment\",\"%DeleteConfirmFieldName.AFD%\":\"cr825_comment\",\"%SortDescending.AFD%\":\"SortDescending5\",\"%CopilotSinglePageScreen.ID%\":\"'Commentses screen'\",\"%BrowseContainer.ID%\":\"BrowseGallery5\",\"%DetailEditContainer.ID%\":\"EditForm5\"}"
+}

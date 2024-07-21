@@ -1,0 +1,126 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_topics",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_topic",
+    "MaxGetRowsCount": 500,
+    "Name": "Topics",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_items_cr825_topic": "Items",
+      "cr825_topic_Annotations": "Notes",
+      "cr825_topic_AsyncOperations": "System Jobs",
+      "cr825_topic_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_topic_connections1": "Connections (cr825_topic_connections1)",
+      "cr825_topic_connections2": "Connections (cr825_topic_connections2)",
+      "cr825_topic_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_topic_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_topic_ProcessSession": "Process Sessions",
+      "cr825_topic_SyncErrors": "Sync Errors",
+      "cr825_topiccategory": "Topic Category",
+      "cr825_topicid": "Topic",
+      "cr825_topicid1": "Topic ID",
+      "cr825_topicimage": "Topic Image",
+      "cr825_topicimageid": "cr825_TopicImageId",
+      "cr825_topicname": "Topic Description",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Topics",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Topics (Views)",
+    "Name": "_cr825_topic_views",
+    "RelatedEntityName": "Topics",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2289070a-e677-4ffe-871a-68b6a388b2f0": "Topic Associated View",
+      "5b775c68-4799-4653-974e-12040660df53": "Topic Advanced Find View",
+      "b4672e5c-14bd-43d6-b11a-9e4910faaac4": "Active Topics",
+      "bce2f125-dcd8-4fb8-b420-5f2dc7651db0": "Topic Lookup View",
+      "d7555425-a710-4227-8d5e-ba800587ae5c": "Inactive Topics"
+    }
+  },
+  {
+    "DisplayName": "Topic Category (Topics)",
+    "Name": "cr825_topic_cr825_topiccategory",
+    "OptionSetInfoNameMapping": {
+      "114360000": "General",
+      "114360001": "Technical",
+      "114360002": "Sales",
+      "114360003": "Marketing"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr825_topiccategory",
+        "OptionSetReferenceEntityName": "Topics"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr825_topiccategory",
+    "RelatedEntityName": "Topics",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Topics)",
+    "Name": "cr825_topic_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Topics"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Topics",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Topics)",
+    "Name": "cr825_topic_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Topics"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Topics",
+    "Type": "OptionSetInfo"
+  }
+]

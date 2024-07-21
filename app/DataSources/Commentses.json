@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_commentses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_comments",
+    "MaxGetRowsCount": 500,
+    "Name": "Commentses",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_comment": "Comment",
+      "cr825_commentid": "Comment ID",
+      "cr825_Comments": "Comments (cr825_Comments)",
+      "cr825_comments_Annotations": "Notes",
+      "cr825_comments_AsyncOperations": "System Jobs",
+      "cr825_comments_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_comments_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_comments_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_comments_ProcessSession": "Process Sessions",
+      "cr825_comments_SyncErrors": "Sync Errors",
+      "cr825_commentsid": "Comments (cr825_commentsid)",
+      "cr825_createdon": "Created On (cr825_createdon)",
+      "cr825_name": "Name",
+      "cr825_updatedon": "Updated On",
+      "createdby": "Created By",
+      "createdon": "Created On (createdon)",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Commentses",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Commentses (Views)",
+    "Name": "_cr825_comments_views",
+    "RelatedEntityName": "Commentses",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "386f2dba-b0fe-4a28-94d8-03ab4ad6ae9c": "Comments Lookup View",
+      "7f68f87a-9a98-4471-b5b3-9d8b2f0117b2": "Active Commentses",
+      "9e96facf-a357-41e2-9c4b-4e313edae6ee": "Inactive Commentses",
+      "d23a1214-7dcf-4fd5-9113-f509de3076d9": "Comments Associated View",
+      "daa98cd5-08c2-4f3c-83ff-12005f5be6e0": "Comments Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Commentses)",
+    "Name": "cr825_comments_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Commentses"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Commentses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Commentses)",
+    "Name": "cr825_comments_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Commentses"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Commentses",
+    "Type": "OptionSetInfo"
+  }
+]

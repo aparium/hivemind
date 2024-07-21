@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_documents",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_document",
+    "MaxGetRowsCount": 500,
+    "Name": "Documents",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_createdon": "Created On (cr825_createdon)",
+      "cr825_document_Annotations": "Notes",
+      "cr825_document_AsyncOperations": "System Jobs",
+      "cr825_document_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_document_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_document_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_document_ProcessSession": "Process Sessions",
+      "cr825_document_SyncErrors": "Sync Errors",
+      "cr825_documentid": "Document",
+      "cr825_documentid1": "Document ID",
+      "cr825_documentname": "Document Name",
+      "cr825_items_cr825_document": "Items",
+      "cr825_updatedon": "Updated On",
+      "createdby": "Created By",
+      "createdon": "Created On (createdon)",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Documents",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Documents (Views)",
+    "Name": "_cr825_document_views",
+    "RelatedEntityName": "Documents",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "022210c9-622f-48b6-ad4c-32ff7feea313": "Active Documents",
+      "2cc07a81-be95-4a55-8d94-cf6b2114c8cf": "Document Associated View",
+      "41105540-2c1a-4c7f-aca4-f7b4e94f26ce": "Document Advanced Find View",
+      "5a7dae3e-1bad-4393-95d2-91af233263fd": "Document Lookup View",
+      "d5130c80-e1f3-4242-b3ce-f5935d4a3bb1": "Inactive Documents"
+    }
+  },
+  {
+    "DisplayName": "Status (Documents)",
+    "Name": "cr825_document_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Documents"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Documents",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Documents)",
+    "Name": "cr825_document_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Documents"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Documents",
+    "Type": "OptionSetInfo"
+  }
+]

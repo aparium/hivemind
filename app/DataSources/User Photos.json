@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_userphotos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_userphoto",
+    "MaxGetRowsCount": 500,
+    "Name": "User Photos",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_photoid": "Photo ID",
+      "cr825_UserID": "User ID",
+      "cr825_userimage": "User Image",
+      "cr825_userimageid": "cr825_UserImageId",
+      "cr825_userphoto_Annotations": "Notes",
+      "cr825_userphoto_AsyncOperations": "System Jobs",
+      "cr825_userphoto_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_userphoto_connections1": "Connections (cr825_userphoto_connections1)",
+      "cr825_userphoto_connections2": "Connections (cr825_userphoto_connections2)",
+      "cr825_userphoto_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_userphoto_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_userphoto_ProcessSession": "Process Sessions",
+      "cr825_userphoto_SyncErrors": "Sync Errors",
+      "cr825_userphotoid": "User Photo",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "User Photos",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "User Photos (Views)",
+    "Name": "_cr825_userphoto_views",
+    "RelatedEntityName": "User Photos",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0fd076bb-8f1a-4f82-979a-edfddb5f925f": "Active User Photos",
+      "28119c22-79ae-42a6-96df-9bea084be372": "User Photo Lookup View",
+      "3825c9f2-cb5a-4330-ae24-a273e91eec58": "Inactive User Photos",
+      "579caadb-5439-415a-9a37-8baa7bc3aa09": "User Photo Advanced Find View",
+      "820b4116-199e-4bc6-85b7-b48b10dbe1d4": "User Photo Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (User Photos)",
+    "Name": "cr825_userphoto_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "User Photos"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "User Photos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (User Photos)",
+    "Name": "cr825_userphoto_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "User Photos"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "User Photos",
+    "Type": "OptionSetInfo"
+  }
+]

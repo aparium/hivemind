@@ -1,0 +1,57 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container8 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =640
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =640
+        ZIndex: =1
+
+        Container9 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =576
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =566
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+            Header2 As Header:
+                DisplayMode: =DisplayMode.Edit
+                Height: =75
+                LayoutMinHeight: =75
+                LayoutMinWidth: =Parent.Width
+                OnSelectLogo: =false
+                Title: =App.ActiveScreen.Name
+                UserEmail: =User().Email
+                UserImage: =User().Image
+                UserName: =User().FullName
+                Width: =Parent.Width
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+            Container10 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+

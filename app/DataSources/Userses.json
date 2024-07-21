@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_userses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_users",
+    "MaxGetRowsCount": 500,
+    "Name": "Userses",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_company": "Hotel or Company Name",
+      "cr825_email": "Email",
+      "cr825_firstname": "First Name",
+      "cr825_items_UserID_cr825_users": "Items",
+      "cr825_lastname": "Last Name",
+      "cr825_organization": "Title",
+      "cr825_userid": "User ID",
+      "cr825_userphoto_cr825_users": "User Photos",
+      "cr825_users_Annotations": "Notes",
+      "cr825_users_AsyncOperations": "System Jobs",
+      "cr825_users_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_users_connections1": "Connections (cr825_users_connections1)",
+      "cr825_users_connections2": "Connections (cr825_users_connections2)",
+      "cr825_users_DuplicateBaseRecord": "Duplicate Records (cr825_users_DuplicateBaseRecord)",
+      "cr825_users_DuplicateMatchingRecord": "Duplicate Records (cr825_users_DuplicateMatchingRecord)",
+      "cr825_users_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_users_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_users_ProcessSession": "Process Sessions",
+      "cr825_users_SyncErrors": "Sync Errors",
+      "cr825_usersid": "Users",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Userses",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Userses (Views)",
+    "Name": "_cr825_users_views",
+    "RelatedEntityName": "Userses",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "282394ea-6cc5-4132-bc66-58d6b4ac2112": "Users Associated View",
+      "5c06ebee-502c-4411-bd2a-3bc08731f0c0": "Active Userses",
+      "cba7466f-1517-49a6-a45a-41dcae707d09": "Users Lookup View",
+      "ce531463-074d-4217-8ac7-219ed178963c": "Inactive Userses",
+      "fe6e4eb8-ed40-4160-a523-096268cea549": "Users Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Userses)",
+    "Name": "cr825_users_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Userses"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Userses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Userses)",
+    "Name": "cr825_users_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Userses"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Userses",
+    "Type": "OptionSetInfo"
+  }
+]

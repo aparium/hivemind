@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_platforms",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_platform",
+    "MaxGetRowsCount": 500,
+    "Name": "Platforms",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_items_cr825_platform": "Items",
+      "cr825_platform_Annotations": "Notes",
+      "cr825_platform_AsyncOperations": "System Jobs",
+      "cr825_platform_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_platform_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_platform_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_platform_ProcessSession": "Process Sessions",
+      "cr825_platform_SyncErrors": "Sync Errors",
+      "cr825_platformid": "Platform",
+      "cr825_platformid1": "Platform ID",
+      "cr825_platformname": "Platform Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Platforms",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Platforms (Views)",
+    "Name": "_cr825_platform_views",
+    "RelatedEntityName": "Platforms",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "10232118-b2a0-4d26-8205-d378d074cff5": "Inactive Platforms",
+      "138b6d4e-5cf9-4277-834d-66923af0cdd0": "Platform Lookup View",
+      "6917ae31-f5f0-40f8-9922-26d18d022fa1": "Platform Associated View",
+      "b1dfe8e7-e110-41ed-b9cc-dfce7dddaad3": "Platform Advanced Find View",
+      "f1c78fae-5b06-4240-935e-edbc2365c531": "Active Platforms"
+    }
+  },
+  {
+    "DisplayName": "Status (Platforms)",
+    "Name": "cr825_platform_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Platforms"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Platforms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Platforms)",
+    "Name": "cr825_platform_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Platforms"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Platforms",
+    "Type": "OptionSetInfo"
+  }
+]

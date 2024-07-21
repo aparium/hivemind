@@ -1,0 +1,132 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr825_itemses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr825_items",
+    "MaxGetRowsCount": 500,
+    "Name": "Itemses",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "cr825_archived": "Archived",
+      "cr825_comments_Comments_cr825_items": "Comments",
+      "cr825_createdon": "Created On (cr825_createdon)",
+      "cr825_description": "Description",
+      "cr825_DocumentID": "Document ID",
+      "cr825_itemid": "Item ID",
+      "cr825_items_Annotations": "Notes",
+      "cr825_items_AsyncOperations": "System Jobs",
+      "cr825_items_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr825_items_connections1": "Connections (cr825_items_connections1)",
+      "cr825_items_connections2": "Connections (cr825_items_connections2)",
+      "cr825_items_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr825_items_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr825_items_ProcessSession": "Process Sessions",
+      "cr825_items_SyncErrors": "Sync Errors",
+      "cr825_itemsid": "Items",
+      "cr825_keywords": "Keywords",
+      "cr825_linktoexternalwebsite": "Link to External Website",
+      "cr825_pictures": "Pictures",
+      "cr825_Platform": "Platform",
+      "cr825_title": "Title",
+      "cr825_Topic": "Topic",
+      "cr825_updatedon": "Updated On",
+      "cr825_UserID": "User ID",
+      "createdby": "Created By",
+      "createdon": "Created On (createdon)",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Itemses",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Itemses (Views)",
+    "Name": "_cr825_items_views",
+    "RelatedEntityName": "Itemses",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09756f37-e70f-40da-9cc8-d3d4afa852ef": "Active Itemses",
+      "345f2f22-9246-4f05-925c-35ce5454a881": "Inactive Itemses",
+      "a784e426-b145-4b13-b398-b6ec43e185c4": "Items Advanced Find View",
+      "c4cc5540-c2b7-4c0a-aebd-5ff12a9a891b": "Items Lookup View",
+      "fb8bb91a-1b99-4260-9991-94507ac2a4fd": "Items Associated View"
+    }
+  },
+  {
+    "DisplayName": "Archived (Itemses)",
+    "Name": "cr825_items_cr825_archived",
+    "OptionSetInfoNameMapping": {
+      "0": "False",
+      "1": "True"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr825_archived",
+        "OptionSetReferenceEntityName": "Itemses"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr825_archived",
+    "RelatedEntityName": "Itemses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Itemses)",
+    "Name": "cr825_items_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Itemses"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Itemses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Itemses)",
+    "Name": "cr825_items_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Itemses"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Itemses",
+    "Type": "OptionSetInfo"
+  }
+]
